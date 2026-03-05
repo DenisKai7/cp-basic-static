@@ -9,7 +9,8 @@
 </script>
 
 <svelte:head>
-	<title>Crypgo | Crypto Landing Page</title>
+	<title>Jayusha | Company Profile Basic Static</title>
+	<link rel="icon" type="image/png" href="/logo/Jayusha_Logo_no_bg.png" />
 </svelte:head>
 
 <Hero />
