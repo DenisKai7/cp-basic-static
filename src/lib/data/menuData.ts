@@ -1,10 +1,10 @@
 import type { HeaderItem } from '$lib/types/menu';
 
 export const headerData: HeaderItem[] = [
-	{ label: 'Buy & Sell', href: '/#main-banner' },
-	{ label: 'Development', href: '/#development' },
-	{ label: 'Work', href: '/#work' },
-	{ label: 'Portfolio', href: '/#portfolio' },
-	{ label: 'Upgrade', href: '/#upgrade' },
-	{ label: 'Docs', href: '/documentation#version' }
+	{ label: 'Home', href: '/#home' },
+	{ label: 'About', href: '/#about' },
+	{ label: 'Offers', href: '/#offers' },
+	{ label: 'Services', href: '/#services' },
+	{ label: 'Pricing', href: '/#pricing' },
+	{ label: 'Career', href: '/Career#version' }
 ];
