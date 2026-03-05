@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { getImagePrefix } from '$lib/utils/utils';
+	
+	const prefix = getImagePrefix();
 </script>
 
 <a href="/">
 	<img
-		src="{getImagePrefix()}images/logo/logo.svg"
+		src="{prefix}logo/Jayusha_Logo_no_bg.png"
 		alt="logo"
-		width="160"
-		height="50"
-		style="width: auto; height: auto;"
+		class="h-12 w-auto md:h-15"
 	/>
 </a>
