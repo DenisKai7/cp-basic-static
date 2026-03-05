@@ -82,12 +82,12 @@
 					in:fly={{ x: 300, duration: 600 }}
 					class="col-span-7 lg:block hidden"
 				>
-					<div class="ml-20 -mr-64">
+					<div class="ml-auto -mr-auto lg:w-[500px] w-full">
 						<img
-							src="{prefix}images/hero/banner-image.png"
+							src="{prefix}images/hero/hero-bannerr.png"
 							alt="Banner"
-							width="1150"
-							height="1150"
+							width="500"
+							height="500"
 						/>
 					</div>
 				</div>
