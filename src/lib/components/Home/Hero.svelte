@@ -50,50 +50,32 @@
 				>
 					<div class="flex gap-6 items-center lg:justify-start justify-center mb-5 mt-24">
 						<img
-							src="{prefix}images/icons/icon-bag.svg"
+							src="{prefix}logo\Jayusha_Logo_no_bg.png"
 							alt="icon"
 							width="40"
 							height="40"
 						/>
 						<p class="text-white sm:text-28 text-18 mb-0">
-							Crypto On The <span class="text-primary">Go</span>
+							Company Profile by  <span class="text-primary">Jayusha</span>
 						</p>
 					</div>
-					<h1 class="font-medium lg:text-76 md:text-70 text-54 lg:text-start text-center text-white mb-10">
-						Buy and Sell <span class="text-primary">Crypto</span> of your{' '}
-						<span class="text-primary">choice</span>!
+					<h1 class="font-medium lg:text-80 md:text-70 text-54 lg:text-start text-center text-white mb-10">
+						Welcome to <span class="text-primary">Homepage</span> of your{' '}
+						<span class="text-primary">Company</span>!
 					</h1>
 					<div class="flex items-center md:justify-start justify-center gap-8">
 						<button
 							class="bg-primary border border-primary rounded-lg text-21 font-medium hover:bg-transparent hover:text-primary text-darkmode py-2 px-7 z-50"
 							on:click={() => (isBuying = true)}
 						>
-							Buy Crypto
+							Booking Here
 						</button>
 						<button
 							class="bg-transparent border border-primary rounded-lg text-21 font-medium hover:bg-primary hover:text-darkmode text-primary py-2 px-7"
 							on:click={() => (isSelling = true)}
 						>
-							Sell Crypto
+							Check Availability
 						</button>
-					</div>
-					<div class="flex items-center md:justify-start justify-center gap-12 mt-20">
-						<a href="#top" class="hover:scale-110 duration-300">
-							<img
-								src="{prefix}images/hero/playstore.png"
-								alt="Play Store"
-								width="240"
-								height="70"
-							/>
-						</a>
-						<a href="#top" class="hover:scale-110 duration-300">
-							<img
-								src="{prefix}images/hero/applestore.png"
-								alt="App Store"
-								width="240"
-								height="70"
-							/>
-						</a>
 					</div>
 				</div>
 				<div
